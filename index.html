@@ -5,17 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Desafío Branching</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono" rel="stylesheet">
 </head>
-<body>
-  <div class="container">
+<body> 
+  <div class="container"> 
+    <!-- se intenta incorporar en esta rama la imagen de forma local y mantiene el redireccionamiento
+    a la pagina pero cambia el formato del estilo original de css. asi que se corrige el href buscando la ruta absoluta del archivo y asi se visualiza la
+     imagen el formato de estilo mas el redireccionamiento a l presionar la imagen -->
     <h1>Ir a Github</h1>
     <a href="https://github.com/">
-      <img src="/assets/img/octocat.png" alt="octocat">
-    </a>
+      <img src="assets/img/octocat.png" alt="octocat">
     <button type="button" class="btn">
-     <a href="https://github.com/" target="_blank">Click aquí para ir a GitHub!</a>
+    </a>
+      <a href="https://github.com/" target="_blank">Click aquí para ir a GitHub!</a>
     </button>
   </div>
 </body>
